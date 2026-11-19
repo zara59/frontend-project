@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+}
+
+.portfolio{
+    background-color: rgb(29, 28, 28);
+    width: 20%;
+    border-radius: 2%;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img{
+    border-radius: 60%;
+    width: 20%;
+    
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+p {
+    color: white;
+    font-size: 8px;
+    margin-top: -5%;
+}
+
+h2{
+    color: white;
+    font-weight: 600px;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-size: 14px;
+}
+h6{
+    color: rgb(99, 183, 15);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -5%;
+}
+h5{
+    color: white;
+    font-weight: 600px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 6px;
+    width: 100%;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    /* gap: 1px; */
+    text-align: center;
+    /* gap: -50px; */
+}
+
+#Github{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    border-radius: 10px;
+}
+#Front-endMentor{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    justify-content: space-between;
+        border-radius: 10px;
+
+}
+#Linkedin{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    justify-content: space-between;
+        border-radius: 10px;
+
+}
+#Twitter{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    justify-content: space-between;
+        border-radius: 10px;
+
+}
+#instagram{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    background-color: rgb(41, 41, 41);
+    justify-content: space-around;
+        border-radius: 10px;
+
+}
