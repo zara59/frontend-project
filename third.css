@@ -1,0 +1,123 @@
+body{
+    background-color: rgba(255, 229, 192, 0.985);
+}
+
+.structure{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+    align-items: center;
+    border-radius: 8px;
+}
+
+
+h4{
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 2px;
+    
+   
+}
+
+#time {
+   font-size: 12px;
+    color: rgb(73, 2, 50);
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-top: 0px;
+    margin-bottom: -10px;
+    padding-left: 25px;
+    
+
+}
+
+#description{
+    font-size: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    text-align: left;
+    line-height: 200%;
+   
+}
+
+
+img{
+    border-radius: 8px;
+    width: 100% ;
+
+}
+
+.preparation {
+    background-color: rgb(250, 240, 247);
+    border-radius: 8px;
+    border: 8px;
+    font-size: 8px;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 4px; 
+    padding-bottom: 4px;
+    margin-bottom: 5%;
+    
+}
+#meal{
+    line-height: 250%;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#servings{
+    font-size: 8px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 200%;
+}
+#ingredients{
+    font-size: 19px;
+    color: rgb(164, 81, 4);
+    font-weight: 500;
+    margin-bottom: 5%;
+}
+#steps{
+    font-size: 19px;
+    color: rgb(164, 81, 4);
+    font-weight: 500;
+}
+
+
+#instruction{
+    font-size: 8px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 200%;
+    margin-bottom: 5%;
+}
+
+h5{
+    font-size: 19px;
+    color: rgb(164, 81, 4);
+    font-weight: 300;
+    margin-bottom: -4px;
+    margin-top: -4px;
+}
+p{
+    font-size: 8px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 200%;
+    
+}
+
+.my-table {
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: -20%;
+
+}
